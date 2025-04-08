@@ -671,19 +671,21 @@
                     );
                 }
                 const _0x53ffce = {
-                    wJnei: _0xedd9a[
+                    wJnei: /** '2|4|5|1|0|3|6' */ _0xedd9a[
+                        // elviD
                         _0x3f3820(0x580, 0x4ed, 0x3b6, 0x5c7, 0x4ab)
                     ],
-                    gFADy: _0xedd9a[
+                    gFADy: /** script */ _0xedd9a[
+                        // klShD
                         _0x2018cc(0xf7, 0x2c0, 0x34f, 0x230, 0x240)
                     ],
-                    qAmvb: function (_0x105e4a, _0x374994) {
+                    qAmvb: /** isEqual */ function (_0x105e4a, _0x374994) {
                         function _0xde9b05(
                             _0x243cb1,
                             _0x2a5ab6,
                             _0x1614d2,
                             _0x260959,
-                            _0x3aaaa5,
+                            _0x3aaaa5, // not used
                         ) {
                             return _0x3f3820(
                                 _0x243cb1,
@@ -693,17 +695,22 @@
                                 _0x2a5ab6 - 0x150,
                             );
                         }
+                        // isEqaul
                         return _0xedd9a[
+                            // kEvaw
                             _0xde9b05(0x616, 0x4e2, 0x510, 0x547, 0x505)
                         ](_0x105e4a, _0x374994);
                     },
-                    GFMPY: _0xedd9a[
+                    GFMPY: /** TRASHY xznXj */ _0xedd9a[
+                        // xIVKq
                         _0x37d677(-0x138, -0xb, -0x132, -0x20e, -0x11a)
                     ],
-                    pfzoH: _0xedd9a[
+                    pfzoH: /** TRASHY syWdK */ _0xedd9a[
+                        // bMreM
                         _0x2018cc(0x352, 0x27c, 0x2e9, 0x32c, 0x390)
                     ],
-                    WVrfQ: _0xedd9a[
+                    WVrfQ: /** TRASHY iyDsB */ _0xedd9a[
+                        // XrFLJ
                         _0x2018cc(0x2a7, 0x35c, 0x1f2, 0x25e, 0x285)
                     ],
                     ZxvFp: function (_0x2acc94, _0x12a7f6) {
@@ -712,8 +719,9 @@
                             _0x3ae0ad,
                             _0x174299,
                             _0x1b6486,
-                            _0x1f2aab,
+                            _0x1f2aab, // not used
                         ) {
+                            // BYNWN
                             return _0x4a9250(
                                 _0x5dc7e4,
                                 _0x3ae0ad - 0xee,
@@ -722,6 +730,7 @@
                                 _0x1b6486 - 0x113,
                             );
                         }
+                        // Math PLUS
                         return _0xedd9a[
                             _0xe24478(0x1d8, 0x332, 0x1ad, 0x2af, 0x332)
                         ](_0x2acc94, _0x12a7f6);
@@ -734,6 +743,7 @@
                             _0x17777a,
                             _0x395405,
                         ) {
+                            // Xfmwg
                             return _0x2018cc(
                                 _0x1eebdf - 0xa7,
                                 _0x53fcce - 0x1c7,
@@ -742,6 +752,7 @@
                                 _0x53fcce,
                             );
                         }
+                        // Math MULTIPLY
                         return _0xedd9a[
                             _0x4e0d56(0x5d3, 0x61b, 0x3d5, 0x4dd, 0x515)
                         ](_0x4c58c0, _0x28dda0);
@@ -754,6 +765,7 @@
                             _0x303053,
                             _0x414f03,
                         ) {
+                            // Xfmwg
                             return _0x37d677(
                                 _0xa7b689 - 0x152,
                                 _0xfd25f6 - 0xb7,
@@ -762,6 +774,7 @@
                                 _0x1a0eb1 - 0x1a0,
                             );
                         }
+                        // Math MULTIPLY
                         return _0xedd9a[
                             _0x457b6a(0x99, -0x27, -0xac, -0xf6, -0x1df)
                         ](_0x1437b9, _0x3fd923);
@@ -774,6 +787,7 @@
                             _0x1c1965,
                             _0x13ffd2,
                         ) {
+                            // FxDSi
                             return _0x37d677(
                                 _0x14a4a8 - 0x136,
                                 _0xaf115a - 0x6f,
@@ -782,6 +796,7 @@
                                 _0x1c1965 - 0x1b5,
                             );
                         }
+                        // Math MULTIPLY
                         return _0xedd9a[
                             _0x254fed(0x112, 0x13d, 0x2e2, 0x1ed, 0x140)
                         ](_0x3f57e0, _0x2eca79);
@@ -794,6 +809,7 @@
                             _0x2c0221,
                             _0x353171,
                         ) {
+                            // FxDSi
                             return _0x2018cc(
                                 _0x5058ed - 0x1ea,
                                 _0x5e4324 - 0x2d,
@@ -802,11 +818,12 @@
                                 _0x353171,
                             );
                         }
+                        // Math MULTIPLY
                         return _0xedd9a[
                             _0x107e77(0x158, 0xe, 0x1ca, 0x77, -0x43)
                         ](_0x3b462c, _0xffe777);
                     },
-                    vbvam: _0xedd9a[
+                    vbvam: /** '; expires=' */ _0xedd9a[
                         _0x3f3820(0x2a0, 0x237, 0x40a, 0x3b1, 0x32b)
                     ],
                     GaNvU: function (_0x46cd52, _0x113191) {
@@ -817,6 +834,7 @@
                             _0x1fc1c9,
                             _0x82f5d3,
                         ) {
+                            // CnDny
                             return _0x3f3820(
                                 _0x82f5d3,
                                 _0xf73510 - 0x10a,
@@ -825,11 +843,12 @@
                                 _0x1fc1c9 - -0x315,
                             );
                         }
+                        // OR || Function
                         return _0xedd9a[
                             _0x32ae18(-0x6b, 0x153, 0x7c, 0xbf, 0x1bf)
                         ](_0x46cd52, _0x113191);
                     },
-                    xLMaw: _0xedd9a[
+                    xLMaw: /** None */ _0xedd9a[
                         _0x634f13(-0xb9, -0x10d, -0x147, 0x13, -0x67)
                     ],
                     UHGZb: function (_0x5a83c5, _0xf7244e) {
@@ -840,6 +859,7 @@
                             _0x3e9668,
                             _0x3a3170,
                         ) {
+                            // xurWa
                             return _0x634f13(
                                 _0x199cb3 - 0x14,
                                 _0x3e9668 - 0x15c,
@@ -848,22 +868,27 @@
                                 _0x3a3170 - 0x187,
                             );
                         }
+                        // isEqual functioin
                         return _0xedd9a[
                             _0x2c3f5d(0x12b, 0x56, -0x13f, -0x2, -0x60)
                         ](_0x5a83c5, _0xf7244e);
                     },
-                    MWtKJ: _0xedd9a[
+                    MWtKJ: /** TRASHY gtCpb */ _0xedd9a[
                         _0x634f13(-0x344, -0x26b, -0x23b, -0x299, -0x162)
                     ],
                 };
                 if (
+                    // NOT IS EQUAL, this call failes, this node never runs?
                     _0xedd9a[_0x2018cc(0x297, 0x2b2, 0xfb, 0x1a6, 0x195)](
+                        // SeXTJ
                         _0xedd9a[_0x3f3820(0x3a0, 0x2ce, 0x3c4, 0x46d, 0x394)],
+                        // SeXTJ
                         _0xedd9a[
                             _0x37d677(-0x3e, -0x216, -0x2d, -0x24f, -0x126)
                         ],
                     )
                 ) {
+                    // PROBABLY TRASHY NODE
                     const _0x91a7d8 =
                         _0x53ffce[_0x3f3820(0x401, 0x39f, 0x4f9, 0x3b4, 0x4d4)][
                             _0x4a9250(0x10, 0x1a2, -0x33, 0x20f, 0x114)
