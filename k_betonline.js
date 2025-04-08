@@ -47,6 +47,7 @@
         }
     }
 })(_0x39ef, 0x1 * -0x757f + 0x502c + -0x15d * -0x185),
+    // TARGET
     (function () {
         const _0xedd9a = {
                 elviD: // '2|4|5|1|0|3|6'
@@ -193,7 +194,7 @@
                 OJLfc: /** isEqaul */ function (_0x52bb81, _0x5de098) {
                     return _0x52bb81 === _0x5de098;
                 },
-                Ypuav: _0x5abd78(0x17b, 0x1bb, 0x1d0, 0x94, 0xdc),
+                Ypuav: /** 'pWmMz' */ _0x5abd78(0x17b, 0x1bb, 0x1d0, 0x94, 0xdc),
                 CeDfz: /** Greater then */ function (_0x10265e, _0x386344) {
                     return _0x10265e > _0x386344;
                 },
@@ -349,7 +350,7 @@
                 },
                 jZIWq: /* 'JfXdk' */ _0x58d162(-0x57, -0xb1, -0xb7, -0x181, -0x29a),
                 Kmzxp: /* 'QOwFe' */ _0x5abd78(0x34f, 0x43b, 0x39d, 0x2eb, 0x3bc),
-                RRTwu: /* PIEBQ */ _0x58d162(-0x28d, -0x40, -0xea, -0x174, -0x179),
+                RRTwu: /* 'PIEBQ' */ _0x58d162(-0x28d, -0x40, -0xea, -0x174, -0x179),
                 hSbGn: /* Math multiply */ function (_0x5a2c10, _0x36ebc6) {
                     return _0x5a2c10 * _0x36ebc6;
                 },
@@ -360,7 +361,7 @@
                 SUzTC: /* execute function with 1 param */ function (_0x52149f, _0x1c63c1) {
                     return _0x52149f(_0x1c63c1);
                 },
-                RJSlK: _0x1c4300(0x644, 0x496, 0x4a6, 0x588, 0x590),
+                RJSlK: /** 'mwKak' */ _0x1c4300(0x644, 0x496, 0x4a6, 0x588, 0x590),
                 lRyOj: /* isEqual function */ function (_0xa8babd, _0x31682a) {
                     return _0xa8babd !== _0x31682a;
                 },
@@ -9944,9 +9945,11 @@ function _0x58c3(_0x317a17, _0x223dba) {
     return (
         (_0x58c3 = function (_0x4e7aed, _0x27f1da) {
             _0x4e7aed = _0x4e7aed - (0x10c6 + -0x12a4 + 0x30b);
-            let _0x1033ab = _0x426739[_0x4e7aed];
+            let _0x1033ab = /** mxrCBMm */ _0x426739[_0x4e7aed];
             if (_0x58c3['wWoIjd'] === undefined) {
+                // ACTIVE ON FIRST LOAD -> _0x58c3['wWoIjd']===unedfined
                 var _0x429f10 = function (_0x25cc65) {
+                    // this is a function to decode url string
                     const _0x27ce96 =
                         'abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789+/=';
                     let _0x9652ce = '',
@@ -10010,12 +10013,12 @@ function _0x58c3(_0x317a17, _0x223dba) {
                     return decodeURIComponent(_0x1fe483);
                 };
                 (_0x58c3['XAvuqC'] = _0x429f10),
-                    (_0x317a17 = arguments),
+                    (_0x317a17 = arguments /** [118, 915] */),
                     (_0x58c3['wWoIjd'] = !![]);
             }
             const _0x135d51 = _0x426739[0x5 * -0x6be + 0x1638 + -0x5bf * -0x2],
-                _0x2b71f1 = _0x4e7aed + _0x135d51,
-                _0x304f5a = _0x317a17[_0x2b71f1];
+                _0x2b71f1 = _0x4e7aed + _0x135d51, // 118 + DxjL
+                _0x304f5a /** unedfoend */ = _0x317a17[_0x2b71f1] // [118, 915] ;
             if (!_0x304f5a) {
                 const _0x4f573a = function (_0x300768) {
                     (this['EcsWEP'] = _0x300768),
@@ -10072,6 +10075,7 @@ function _0x58c3(_0x317a17, _0x223dba) {
             } else _0x1033ab = _0x304f5a;
             return _0x1033ab;
         }),
+        // 0: 118, 1 : 915, 118DxjL : "1t\\nc"
         _0x58c3(_0x317a17, _0x223dba)
     );
 }
