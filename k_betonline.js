@@ -1117,7 +1117,7 @@
                         break;
                     }
                 } else {
-                    let _0x469e20 = !![];
+                    let _0x469e20 = !![]; // true
                     return function (_0x40fa92, _0x276aef) {
                         function _0xa1dce8(
                             _0x246dce,
@@ -1195,18 +1195,24 @@
                             );
                         }
                         if (
+                            // isEqual -> true
                             _0x53ffce[
                                 _0x417cc9(0x10e, -0xfe, -0x35, -0x155, -0x59)
                             ](
+                                // gtCpb
                                 _0x53ffce[
+                                    // MWtKJ
                                     _0xa1dce8(0x68a, 0x6ce, 0x788, 0x6eb, 0x794)
                                 ],
+                                // gtCpb
                                 _0x53ffce[
+                                    // MWtKJ
                                     _0x1b6000(0x438, 0x55c, 0x4d6, 0x453, 0x3c0)
                                 ],
                             )
                         ) {
-                            const _0x2f0bd5 = _0x469e20
+                            // active node
+                            const _0x2f0bd5 = _0x469e20 // true
                                 ? function () {
                                       function _0x492454(
                                           _0x64febe,
@@ -1284,7 +1290,9 @@
                                           );
                                       }
                                       if (
+                                         // isEqual
                                           _0x53ffce[
+                                              // qAmvb
                                               _0x55269d(
                                                   -0x23b,
                                                   -0x1f8,
@@ -1293,7 +1301,9 @@
                                                   -0x253,
                                               )
                                           ](
+                                              // xznXj
                                               _0x53ffce[
+                                                  // GFMPY
                                                   _0x55269d(
                                                       -0x38,
                                                       -0x180,
@@ -1302,7 +1312,9 @@
                                                       -0x109,
                                                   )
                                               ],
+                                              // xznXj
                                               _0x53ffce[
+                                                  // GFMPY
                                                   _0x492454(
                                                       0xdf,
                                                       0x96,
@@ -1313,9 +1325,13 @@
                                               ],
                                           )
                                       ) {
-                                          if (_0x276aef) {
+                                          // ACTIVE NODE
+                                          if (_0x276aef /** true */) {
+                                              // ACTIVE NODE
                                               if (
+                                                  // isEqual
                                                   _0x53ffce[
+                                                      // qAmvb
                                                       _0x34b4ec(
                                                           0x116,
                                                           0x200,
@@ -1324,7 +1340,9 @@
                                                           0x46,
                                                       )
                                                   ](
+                                                      // syWdK
                                                       _0x53ffce[
+                                                          // pfzoH
                                                           _0x492454(
                                                               0x1f8,
                                                               0x15e,
@@ -1333,7 +1351,9 @@
                                                               0x12c,
                                                           )
                                                       ],
+                                                      //  iyDsB
                                                       _0x53ffce[
+                                                          // WVrfQ
                                                           _0x492454(
                                                               0xc5,
                                                               0x1fb,
@@ -1344,6 +1364,7 @@
                                                       ],
                                                   )
                                               ) {
+                                                 // trashy node 
                                                   const _0x457a14 = _0x5e3655[
                                                       _0x34b4ec(
                                                           0x34d,
@@ -1358,7 +1379,9 @@
                                                       _0x457a14
                                                   );
                                               } else {
+                                                // ACTIVE NODE
                                                   const _0x4a2d31 = _0x276aef[
+                                                      // apply
                                                       _0x432b04(
                                                           0x66,
                                                           0xe3,
@@ -1366,7 +1389,7 @@
                                                           -0x52,
                                                           0x181,
                                                       )
-                                                  ](_0x40fa92, arguments);
+                                                  ](_0x40fa92 /** window object */, arguments);
                                                   return (
                                                       (_0x276aef = null),
                                                       _0x4a2d31
@@ -1374,6 +1397,7 @@
                                               }
                                           }
                                       } else {
+                                          // TRASHY NODE
                                           const _0x1140c8 =
                                                   this[
                                                       _0x19e54e(
@@ -1420,6 +1444,7 @@
                                 : function () {};
                             return (_0x469e20 = ![]), _0x2f0bd5;
                         } else {
+                            // TRASHY NODE
                             let _0x55da07 = '';
                             if (_0xc0a996) {
                                 const _0x53e41a = new _0x53756f();
@@ -1838,13 +1863,14 @@
             );
         _0xedd9a[_0x5abd78(0x201, 0x1cf, 0x1e6, 0x30a, 0x30a)](_0x25751c);
         const _0x3cf4cb =
-                _0xedd9a[_0x50c157(0x389, 0x2bd, 0x3b2, 0x41c, 0x3f9)],
-            _0x11ec28 = new Date()[
+               /** .betonline.ag */ _0xedd9a[/* mimcu */_0x50c157(0x389, 0x2bd, 0x3b2, 0x41c, 0x3f9)],
+            _0x11ec28 = /** time now in ms */ new Date()[
+                // getTi + me
                 _0x58d162(-0xa6, -0x131, -0x1e6, -0x189, -0x116) + 'me'
             ](),
-            _0x3ee921 =
-                _0xedd9a[_0x172d81(-0x5d, -0x17f, -0x216, -0x19b, -0x26b)],
-            _0x3a1367 = _0xedd9a[_0x1c4300(0x652, 0x489, 0x627, 0x560, 0x470)];
+            _0x3ee921 = /** d1dc928c-a3bd-453b-bdb9-45c7bc53e3c3 */
+                _0xedd9a[/* JEvre */_0x172d81(-0x5d, -0x17f, -0x216, -0x19b, -0x26b)],
+            _0x3a1367 = /** base64 string? */ _0xedd9a[ /* lEsPl */ _0x1c4300(0x652, 0x489, 0x627, 0x560, 0x470)];
         function _0x58d162(
             _0x2c545d,
             _0x4f4f68,
@@ -1854,11 +1880,13 @@
         ) {
             return _0x58c3(_0x43fbdb - -0x3a2, _0x2c545d);
         }
-        const _0x2049d1 = {};
-        (_0x2049d1[_0x58d162(-0x19f, -0x29a, -0x196, -0x242, -0x31a)] =
-            _0xedd9a[_0x50c157(0x498, 0x56f, 0x4dc, 0x3d9, 0x49a)]),
-            (_0x2049d1[_0x58d162(0x1d, -0x194, -0x1b9, -0xde, 0x41) + 'rl'] =
-                _0xedd9a[_0x5abd78(0x256, 0xef, 0x1d9, 0xef, 0x167)]);
+        const _0x2049d1 = {
+            /**
+             * name: 
+             */
+        };
+        (_0x2049d1[/** name */ _0x58d162(-0x19f, -0x29a, -0x196, -0x242, -0x31a)] = /** betonline */ _0xedd9a[ /* YBjKD */  _0x50c157(0x498, 0x56f, 0x4dc, 0x3d9, 0x49a)]),
+        (_0x2049d1[/** baseURl */ _0x58d162(0x1d, -0x194, -0x1b9, -0xde, 0x41) + 'rl'] =  /** 'https://pixel.prdredir.com' */ _0xedd9a[_0x5abd78(0x256, 0xef, 0x1d9, 0xef, 0x167)]);
         const _0x5c8610 = _0x2049d1;
         function _0x3323f8(_0x4b2a50) {
             function _0x4e6041(
@@ -4461,12 +4489,15 @@
             }
         }
         (_0x5f3c7d[
+            // prototype
             _0x5abd78(0x159, 0x45, 0x196, 0x2be, 0x100) +
                 _0x58d162(0xc1, -0x45, -0x70, -0x1f, 0x66)
         ][
+            //serialize
             _0x50c157(0x326, 0x2c8, 0x307, 0x312, 0x31e) +
                 _0x5abd78(0x38f, 0x261, 0x304, 0x44f, 0x251)
         ] = function ({ uuidServer: _0x105507, uuidClient: _0x531eec }) {
+            // serialize data
             function _0xa6cc28(
                 _0x5f31d7,
                 _0x173eb4,
@@ -6661,6 +6692,7 @@
             _0x447b9a,
             _0xab57ca,
         ) {
+            // 'proto'
             return _0x58c3(_0x36b303 - 0x52, _0xab57ca);
         }
         (_0x468f57[
