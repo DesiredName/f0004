@@ -66,3 +66,28 @@
     "__mpr":[],
     "__mpap":[]
 }}
+
+17.20
+
+{name: 'blueID', value: 'b4c7b10a-cb60-43ca-b27d-cc2a32c0c076'}
+{name: 'CK_homepageOut', value: 'false'}
+{name: 'pageViews', value: '1'}
+{name: 'lastVisitTime', value: '1744211061974'}
+{name: 'CT.CONTENT.NA.STATUS', value: '1'}
+{name: 'PreviousUrlNav', value: '%2Fkameleoon-iframe.html'}
+{name: '_ga', value: 'GA1.1.1009372591.1744211062'}
+{name: '_ga_KC6V6402HY', value: 'GS1.1.1744211062.1.0.1744211062.0.0.0'}
+{name: 'mp_29807402e754b63235bef724770a9212_mixpanel', value: {
+    "distinct_id":"$device:a6e714be-d6c3-4fb5-ac42-210d3645f8ff",
+    "$device_id":"a6e714be-d6c3-4fb5-ac42-210d3645f8ff",
+    "$initial_referrer":"$direct",
+    "$initial_referring_domain":"$direct",
+    "__mps":{},
+    "__mpso":{"$initial_referrer":"$direct","$initial_referring_domain":"$direct"},
+    "__mpus":{},
+    "__mpa":{},
+    "__mpu":{},
+    "__mpr":[],
+    "__mpap":[]
+}}
+{name: 'cslfp', value: 'eyJ1dWlkQ2xpZW50IjoiODJhODgxNjQtNGZlMS00N2RlLTkyZWUtNmNmZThhYTA2ZmRjIiwia2V5IjoiYjg1NzBlYTM1NjUwYTVmZjVhYTQyNTc3YzNlZWUzODQ3NWI4Y2VmMTFlOGExYTkyOGVjNzJjODlhM2Q0Zjc5NiJ9;domain=.betonline.ag; expires=Fri, 09 May 2025 15:05:03 GMT;path=/;SameSite=None; Secure'}
