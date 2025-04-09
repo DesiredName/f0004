@@ -1,54 +1,68 @@
 09.04.2025
 09.10
 
-0
-: 
 {name: 'CK_homepageOut', value: 'false'}
-1
-: 
 {name: 'CT.CONTENT.NA.STATUS', value: '1'}
-2
-: 
 {name: 'pageViews', value: '1'}
-3
-: 
 {name: 'lastVisitTime', value: '1744182396934'}
-4
-: 
 {name: '_ga', value: 'GA1.1.1781701973.1744182398'}
-5
-: 
 {name: 'mp_29807402e754b63235bef724770a9212_mixpanel', value: '%7B%22distinct_id%22%3A%22%24device%3A3e91af93-5a9…2C%22__mpr%22%3A%5B%5D%2C%22__mpap%22%3A%5B%5D%7D'}
-6
-: 
 {name: '_ga_KC6V6402HY', value: 'GS1.1.1744182397.1.0.1744182397.0.0.0'}
 
 12.00
 
-0
-: 
 {name: 'CK_homepageOut', value: 'false'}
-1
-: 
 {name: 'CT.CONTENT.NA.STATUS', value: '1'}
-2
-: 
 {name: 'PreviousUrlNav', value: '%2Fkameleoon-iframe.html'}
-3
-: 
 {name: '_ga', value: 'GA1.1.640788766.1744182910'}
-4
-: 
 {name: 'blueID', value: '42f95a51-a63d-4afb-ae98-4331e29ef6fc'}
-5
-: 
 {name: 'mp_29807402e754b63235bef724770a9212_mixpanel', value: '%7B%22distinct_id%22%3A%22%24device%3Ab4b26e9b-9d7…2C%22__mpr%22%3A%5B%5D%2C%22__mpap%22%3A%5B%5D%7D'}
-6
-: 
 {name: 'pageViews', value: '2'}
-7
-: 
 {name: 'lastVisitTime', value: '1744183278005'}
-8
-: 
 {name: '_ga_KC6V6402HY', value: 'GS1.1.1744182909.1.1.1744183278.0.0.0'}
+
+14.00
+
+{name: 'CK_homepageOut', value: 'false'}
+{name: 'pageViews', value: '1'}
+{name: 'lastVisitTime', value: '1744192037235'}
+{name: 'CT.CONTENT.NA.STATUS', value: '1'}
+{name: '_ga', value: 'GA1.1.1689856007.1744192038'}
+{name: '_ga_KC6V6402HY', value: 'GS1.1.1744192037.1.0.1744192037.0.0.0'}
+{name: 'mp_29807402e754b63235bef724770a9212_mixpanel', value: {
+    "distinct_id":"$device:d82c228f-f233-4d6a-9568-8b84f434551c",
+    "$device_id":"d82c228f-f233-4d6a-9568-8b84f434551c",
+    "$initial_referrer":"$direct",
+    "$initial_referring_domain":"$direct",
+    "__mps":{},
+    "__mpso":{"$initial_referrer":"$direct","$initial_referring_domain":"$direct"},
+    "__mpus":{},
+    "__mpa":{},
+    "__mpu":{},
+    "__mpr":[],
+    "__mpap":[]
+}}
+{name: 'blueID', value: '845a64b7-bc73-42bd-ae69-b7609b329052'}
+{name: 'cslfp', value: 'eyJ1dWlkQ2xpZW50IjoiNmYwMzczMWUtNzliOS00YmExLWFiYmQtZDkzOTkzNjJmYTFiIiwia2V5IjoiOWU5OTE3ODFhYjU0Y2Y5YTc4Zjc2MDkwNTUyNWY3M2RkNDE4OWIxYjkyNzRjMDY0NWM1MTU1MDJkYjhiM2FiOSJ9;domain=.betonline.ag; expires=Fri, 09 May 2025 09:47:47 GMT;path=/;SameSite=None; Secure'}
+
+15.00
+
+{name: 'CK_homepageOut', value: 'false'}
+{name: 'pageViews', value: '1'}
+{name: 'lastVisitTime', value: '1744201870417'}
+{name: 'CT.CONTENT.NA.STATUS', value: '1'}
+{name: '_ga', value: 'GA1.1.1167724180.1744201871'}
+{name: '_ga_KC6V6402HY', value: 'GS1.1.1744201870.1.0.1744201870.0.0.0'}
+{name: "mp_29807402e754b63235bef724770a9212_mixpanel", value: {
+    "distinct_id":"$device:f4205ff1-a1ae-4649-ae3d-5003194b804f",
+    "$device_id":"f4205ff1-a1ae-4649-ae3d-5003194b804f",
+    "$initial_referrer":"$direct",
+    "$initial_referring_domain":"$direct",
+    "__mps":{},
+    "__mpso":{"$initial_referrer":"$direct","$initial_referring_domain":"$direct"},
+    "__mpus":{},
+    "__mpa":{},
+    "__mpu":{},
+    "__mpr":[],
+    "__mpap":[]
+}}
