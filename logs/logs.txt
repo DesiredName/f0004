@@ -91,3 +91,56 @@
     "__mpap":[]
 }}
 {name: 'cslfp', value: 'eyJ1dWlkQ2xpZW50IjoiODJhODgxNjQtNGZlMS00N2RlLTkyZWUtNmNmZThhYTA2ZmRjIiwia2V5IjoiYjg1NzBlYTM1NjUwYTVmZjVhYTQyNTc3YzNlZWUzODQ3NWI4Y2VmMTFlOGExYTkyOGVjNzJjODlhM2Q0Zjc5NiJ9;domain=.betonline.ag; expires=Fri, 09 May 2025 15:05:03 GMT;path=/;SameSite=None; Secure'}
+
+
+20.35
+
+[
+    {
+        "name": "CK_homepageOut",
+        "value": "false"
+    },
+    {
+        "name": "CT.CONTENT.NA.STATUS",
+        "value": "1"
+    },
+    {
+        "name": "pageViews",
+        "value": "1"
+    },
+    {
+        "name": "lastVisitTime",
+        "value": "1744223718813"
+    },
+    {
+        "name": "_ga",
+        "value": "GA1.1.105162296.1744223719"
+    },
+    {
+        "name": "blueID",
+        "value": "8e5ecf57-eab0-4fee-a5f9-eef64f1ba82e"
+    },
+    {
+        "name": "_ga_KC6V6402HY",
+        "value": "GS1.1.1744223719.1.0.1744223719.0.0.0"
+    },
+    {
+        "name": "mp_29807402e754b63235bef724770a9212_mixpanel",
+        "value": {
+            "distinct_id":"$device:dae8d889-f715-4faa-913b-ea43eca774ff",
+            "$device_id":"dae8d889-f715-4faa-913b-ea43eca774ff",
+            "$initial_referrer":"$direct",
+            "$initial_referring_domain":"$direct",
+            "__mps":{},
+            "__mpso":{"$initial_referrer":"$direct","$initial_referring_domain":"$direct"},
+            "__mpus":{},
+            "__mpa":{},
+            "__mpu":{},
+            "__mpr":[],
+            "__mpap":[]
+    }},
+    {
+        name: 'cslfp',
+        value: 'eyJ1dWlkQ2xpZW50IjoiOTI5MzQ4NDYtZjE1Yi00N2I4LWE2NjgtNGNhOGQzMDdlYzhlIiwia2V5IjoiMzM4MWZiMGMzYjRhYWQ4YThhNmQ0Y2QxZjExMWI5ZmM4Y2QxNGNiZjM0OWIxMzJlYjM2NjNkZjBjZDM2ODM1MSJ9;domain=.betonline.ag; expires=Fri, 09 May 2025 18:35:53 GMT;path=/;SameSite=None; Secure'
+    }
+]

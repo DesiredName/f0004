@@ -389,37 +389,17 @@
     }
 
     function _0x4a1750() {
-        const _0x466d29 = '1|3|6|2|5|0|4'.split('|');
-        let _0x52e6b1 = 0;
-        while (!![]) {
-            switch (_0x466d29[_0x52e6b1++]) {
-            case '0':
-                this['endpoint'] = this['getUrl'](_0x5c8610);
-                continue;
-            case '1':
-                this['pixel'] = document.createElement('script');
-                continue;
-            case '2':
-                this['uuid'] = new _0x574f8a();
-                continue;
-            case '3':
-                this['closest'] = document.getElementsByTagName('script')[0];
-                continue;
-            case '4':
-                this['assimetric'] = new _0x5f3c7d();
-                continue;
-            case '5':
-                this['landingPage'] = document.location['href'];
-                continue;
-            case '6':
-                const _0x162392 = {};
-                _0x162392['domain'] = _0x3cf4cb,
-                // GATCHA!
-                this['cookieService'] = new _0x468f57(_0x162392);
-                continue;
-            }
-            break;
-        }
+        this['endpoint'] = this['getUrl'](_0x5c8610);
+        this['pixel'] = document.createElement('script');
+        this['uuid'] = new _0x574f8a();
+        this['closest'] = document.getElementsByTagName('script')[0];
+        this['assimetric'] = new _0x5f3c7d();
+        this['landingPage'] = document.location['href'];
+
+        const _0x162392 = {};
+        _0x162392['domain'] = _0x3cf4cb,
+        // GATCHA!
+        this['cookieService'] = new _0x468f57(_0x162392);
     }
 
     _0x5f3c7d['prototype']['serialize'] = function({uuidServer: _0x105507, uuidClient: _0x531eec}) {
