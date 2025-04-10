@@ -186,3 +186,10 @@
         value: 'eyJ1dWlkQ2xpZW50IjoiNWFhMjRkYTUtYjg3Zi00M2U0LTgwYjItMGVjN2ExMmQ3NmI1Iiwia2V5IjoiMGRiZDkwZmQxMTczYTAzODhhMjMyZjQzNzBjNjYxMjg2NjgzMmE2MGM0Yjk0MjQ5ODgxY2FiNjBhY2FlNWFlNyJ9;domain=.betonline.ag; expires=Sat, 10 May 2025 06:31:55 GMT;path=/;SameSite=None; Secure'
     }
 ]
+
+11.36
+
+[{
+    name: 'cslfp',
+    value: 'eyJ1dWlkQ2xpZW50IjoiZmE1ZTM2ZDctZmU4MC00NWYzLTllMDgtYmZkZWVhYmNiYzZiIiwia2V5IjoiN2EwYWIyMzBjYTMxZDM0ZThmZDBjMGYzN2MwNjM4OTU3ZDMxYTk3OTZiNzhlZTc1NjdlMjRjODVhMWRlNmJjMSJ9'
+}]

@@ -12,7 +12,7 @@
     const _0x3ee921 = 'd1dc928c-a3bd-453b-bdb9-45c7bc53e3c3'; // key: JEvre
     
     // ORIGIN: 'lEsPl': _0x50c157(0x525, 0x4ce, 0x5d4, 0x672, 0x572) + _0x50c157(0x34
-    /** Assymetric encryption key: public */
+    /** Assymetric encryption key `public part`. Useless for decryption by itself, as it used in combination with `private part` that is stored inside server */
     const _0x3a1367 = 'MIICWwIBAAKBgQDYL6VVQXPvQgSXVu4uznKZHDeX4sABpL19/h8AXSg4Z+VkHnWM\\n+xpVl4EB2DjsNu1Kw1IEoXFnMJJKs9nQ7bydvt26B4D4BnrWOSfB+sevn3UcJmk4\\nkE+uQv7TRX3no13YREhGSUVEqFSEkDdcLlta41BDb8bj51QhJzF5WZpa3QIDAQAB\\nAoGADfTtgJaMLIsfjsGu+NidL2NR931NFg4TqbmpOLXK7fFPLuqEfkiLx7DTRFI4\\nQo+9PBFmDyR5FMde+nGoA0QF5C7MJ+Ysz4XjgKVRfZVxXX4C2zjUeSqu/ApIHJv8\\nrUFLo/5Lys/c3LcXwn8Hm4ww6MQD0Wfj+BDVpngEi+02voUCQQD5PkVwVFMf5EAz\\njNfcguw16Puu4qig7LWLl+14H0Ukf7s5UoEqS5pk8rnYL5icf5s0AR0foBsv2hT/\\nB0vDlEYbAkEA3gv17o/z0YfZzJm12GMzoLUiuX7RVRZyzQ3He5vpl3B1oIsXfYFI\\nuwihlnF+Pge9NWpKkt3gkWASeDaGTVDSZwJAOWxCXUXgPNm+fOH3HaPAPg9mZP1t\\ncl322alwGZvCt00CWouKnK78bEOL06XrmCrCHDIhfpbJjLXG3pbUusOffwJAU4AB\\n8r1VffTtVYB0HrRnZMbZERJ8m9e+QhgtbPFbrWRQB5hms/6bICKFyXJSe/cjEuQu\\nuP4RBfov198BMC/1fwJAac7UIJ1WW9kp0Ov5QEWE0W60sabCab06sMugETY3Y+Ry\\ni0OAByrkBeMIN6wUt1bo1hgNtg1cSjNprv+oaxyNtg=='; // key: lEsPl
 
     /** Probably variable part of the app, depending on what site it is running on */
@@ -68,16 +68,19 @@
     // ORIGIN: _0x5f3c7d[_0x5abd78(0x159, 0x45, 0x196, 0x2be, 0x100) + _0x58d162(0xc1, -0x45, -0x70, -0x1f, 0x66)][_0x50c157(0x326, 0x2c8, 0x307, 0x312, 0x31e) + _0x5abd78(0x38f, 0x261, 0x304, 0x44f, 0x251)]
     _0x5f3c7d.prototype.serialize = function({uuidServer: _0x105507, uuidClient: _0x531eec}) {
         return new _0x302693(_0x445857 => {
-            crypto.subtle.digest('SHA-256', new TextEncoder('utf-8').encode(_0x3a1367 + '-' + _0x105507 + '-' + _0x531eec))
-                .then(_0x2fc96f => {
-                    let _0xea564f = [], _0x48193e = new DataView(_0x2fc96f);
-                    for ( let i = 0; i < _0x48193e.byteLength; i += 4 )
-                        _0xea564f.push(('00000000' + _0x48193e.getUint32(i).toString(16)).slice(-8));
+            crypto.subtle.digest(
+                'SHA-256',
+                new TextEncoder('utf-8').encode(_0x3a1367 + '-' + _0x105507 + '-' + _0x531eec)
+            ).then(_0x2fc96f => {
+                let _0xea564f = [], _0x48193e = new DataView(_0x2fc96f);
+                
+                for ( let i = 0; i < _0x48193e.byteLength; i += 4 )
+                    _0xea564f.push(('00000000' + _0x48193e.getUint32(i).toString(16)).slice(-8));
 
-                    return _0xea564f.join('');
-                }).then(_0x231744 => { // example: "834aecd3e5fd657497c909ac594f9a8bde8e292cb9a92b71236d9ef21e616951"
-                    _0x445857(_0x231744);
-                });
+                return _0xea564f.join('');
+            }).then(_0x231744 => { // example: "834aecd3e5fd657497c909ac594f9a8bde8e292cb9a92b71236d9ef21e616951"
+                _0x445857(_0x231744);
+            });
         });
     },
 
@@ -204,8 +207,9 @@
 
     // ORIGIN: _0x4a1750[_0x1c4300(0x547, 0x2ed, 0x4d5, 0x3fd, 0x542) + _0x50c157(0x55e, 0x4a7, 0x66a, 0x651, 0x68e)][_0x5abd78(0x2a9, 0x26b, 0x307, 0x404, 0x43a)]
     _0x4a1750.prototype.start = function() {        
+        /** Unique UUID of this browser, that is set when 'cslfp' cookie is been set for the first time */
         const _0x42352f = this.uuid.generate()
-            , _0x2ad89c = {};
+        const _0x2ad89c = {};
 
         _0x2ad89c['uuidClient'] = _0x3ee921,
         _0x2ad89c['uuidServer'] = _0x42352f,
