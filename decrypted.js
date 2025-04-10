@@ -215,7 +215,7 @@
         _0x2ad89c['uuidServer'] = _0x42352f,
 
         this.assimetric.serialize(_0x2ad89c).next(_0x423ede => {        
-            this.endpoint.searchParams.set('lp', this.landingPage),
+            this.endpoint.searchParams.set('lp', this.landingPage);
             this.endpoint.searchParams.set('ts', '' + _0x11ec28);
 
             const _0x5fc805 = {};

@@ -1,5 +1,7 @@
 ### This document describes how `k_betonline.js` works
 
+URL: https://scripts.prdredir.com/scripts/k_betonline.js
+
 ### Definitions
 *User* - the visitor of `betonline.ag`
 *Client* - the `k_betonline.js` code (script)
@@ -94,11 +96,22 @@ function _0x468f57({domain: _0x573996}) {
 }
 ```
 6. The new `new UUID` value is been generated for user's browser as unique identifier
+```
+this.assimetric.serialize(_0x2ad89c).next(_0x423ede => {  
+```
 7. Script verifies if `cslfp` cookie exists and 
     1. Either takes the `uuidClient` value from that cookie
     2. Or creates new `cslfp` cookie with passed `new UUDI` value
     3. Returns used `uuidClient` version (either stored or genreated)
+```
+this.getCookie(_0x5fc805)
+```
 8. Using object `_0x5c8610` and its `baseURL` and `name` values, script generates new `pixel` url: `https://pixel.prdredir.com/rtg/sync/betonline.gif`
+```
+this.endpoint.searchParams.set('lp', this.landingPage);
+this.endpoint.searchParams.set('ts', '' + _0x11ec28);
+this.endpoint.searchParams.set('cslfp', this.getCookie(_0x5fc805));
+```
 9. New query parameters are been added:
     1. Add `lp` parameter with `document.location['href']` (current page viewed by user)
     2. Add `ts` parameter that is a timestamp when the script was run
