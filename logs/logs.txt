@@ -144,3 +144,45 @@
         value: 'eyJ1dWlkQ2xpZW50IjoiOTI5MzQ4NDYtZjE1Yi00N2I4LWE2NjgtNGNhOGQzMDdlYzhlIiwia2V5IjoiMzM4MWZiMGMzYjRhYWQ4YThhNmQ0Y2QxZjExMWI5ZmM4Y2QxNGNiZjM0OWIxMzJlYjM2NjNkZjBjZDM2ODM1MSJ9;domain=.betonline.ag; expires=Fri, 09 May 2025 18:35:53 GMT;path=/;SameSite=None; Secure'
     }
 ]
+
+10.04
+
+08.30
+[
+    {
+        "name": "CK_homepageOut",
+        "value": "false"
+    },
+    {
+        "name": "CT.CONTENT.NA.STATUS",
+        "value": "1"
+    },
+    {
+        "name": "_ga",
+        "value": "GA1.1.1413417056.1744266653"
+    },
+    {
+        "name": "blueID",
+        "value": "b01112f7-8fbe-457d-a01a-7d1efd740db5"
+    },
+    {
+        "name": "pageViews",
+        "value": "2"
+    },
+    {
+        "name": "lastVisitTime",
+        "value": "1744266686585"
+    },
+    {
+        "name": "_ga_KC6V6402HY",
+        "value": "GS1.1.1744266653.1.1.1744266687.0.0.0"
+    },
+    {
+        "name": "mp_29807402e754b63235bef724770a9212_mixpanel",
+        "value": "%7B%22distinct_id%22%3A%22%24device%3A86dac6e9-69e2-4440-8ea4-490f1f541342%22%2C%22%24device_id%22%3A%2286dac6e9-69e2-4440-8ea4-490f1f541342%22%2C%22custom_user_agent%22%3A%22mozilla%2F5.0%20(windows%20nt%2010.0%3B%20win64%3B%20x64)%20applewebkit%2F537.36%20(khtml%2C%20like%20gecko)%20chrome%2F135.0.0.0%20safari%2F537.36%22%2C%22login_status%22%3A%22logged_out%22%2C%22%24initial_referrer%22%3A%22%24direct%22%2C%22%24initial_referring_domain%22%3A%22%24direct%22%2C%22__mps%22%3A%7B%7D%2C%22__mpso%22%3A%7B%22%24initial_referrer%22%3A%22%24direct%22%2C%22%24initial_referring_domain%22%3A%22%24direct%22%7D%2C%22__mpus%22%3A%7B%7D%2C%22__mpa%22%3A%7B%7D%2C%22__mpu%22%3A%7B%7D%2C%22__mpr%22%3A%5B%5D%2C%22__mpap%22%3A%5B%5D%7D"
+    },
+    {
+        name: 'cslfp',
+        value: 'eyJ1dWlkQ2xpZW50IjoiNWFhMjRkYTUtYjg3Zi00M2U0LTgwYjItMGVjN2ExMmQ3NmI1Iiwia2V5IjoiMGRiZDkwZmQxMTczYTAzODhhMjMyZjQzNzBjNjYxMjg2NjgzMmE2MGM0Yjk0MjQ5ODgxY2FiNjBhY2FlNWFlNyJ9;domain=.betonline.ag; expires=Sat, 10 May 2025 06:31:55 GMT;path=/;SameSite=None; Secure'
+    }
+]
