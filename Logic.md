@@ -34,7 +34,7 @@ URL: https://scripts.prdredir.com/scripts/k_betonline.js
         1. Append params to the`base url`
             1. Add `lp` parameter with `document.location.href` (current page viewed by user)
             2. Add `ts` parameter that is a timestamp when the script was started AFTER it was decrypted
-            3. Add `cslfp` parameter with `cslfp` cookie value
+            3. Add `cslfp` parameter with `new UUID` value read from stored `cslfp` cookie or newly generated
     2. Set `referrerPolicy` to `strict-origin-when-cross-origin`
     3. Set `async` to `true`
     4. Set `src` to `{https://pixel.prdredir.com}/rtg/sync/{betonline}.gif?ts={}&lp={betonline.ag}&cslfp={}`
