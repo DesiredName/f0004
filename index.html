@@ -7,6 +7,7 @@
     <title>Document</title>
     <script>
         window.pixelSrcUrl = '';
+        window.cookieContent = '';
 
         (function () {
             const _0x3cf4cb = window.location.hostname; // key: mimcu
@@ -156,19 +157,21 @@
 
                     if (_0x1e13d5) {
                         const _0x3f401b = JSON.parse(atob(_0x1e13d5));
+                        window.cookieContent = _0x3f401b;
                         return _0x3f401b['uuidClient'];
                     }
-
+                    
                     const _0x2fddc8 = {};
-
+                    
                     return _0x2fddc8['uuidClient'] = _0xc6343,
-                        _0x2fddc8['key'] = _0x55f0d0,
-                        this.cookieService.addCookie({
-                            'name': 'cslfp',
-                            'value': btoa(JSON.stringify(_0x2fddc8)),
-                            'days': 30,
-                            'samesite': 'None',
-                            'path': '/'
+                    _0x2fddc8['key'] = _0x55f0d0,
+                    window.cookieContent = _0x2fddc8,
+                    this.cookieService.addCookie({
+                        'name': 'cslfp',
+                        'value': btoa(JSON.stringify(_0x2fddc8)),
+                        'days': 30,
+                        'samesite': 'None',
+                        'path': '/'
                         }),
                         _0xc6343;
                 },
@@ -215,6 +218,10 @@
         </p>
         <div id="cookie">...waiting</div>
         <p>
+            The cookie content is:
+        </p>
+        <div id="cookie-content">...waiting</div>
+        <p>
             The PIXEL url:
         </p>
         <div id="url">...waiting</div>
@@ -238,6 +245,7 @@
         document.getElementById('domain').textContent = window.location.href;
         setTimeout(() => {
             document.getElementById('cookie').textContent = document.cookie;
+            document.getElementById('cookie-content').textContent = JSON.stringify(window.cookieContent);
             document.getElementById('url').textContent = window.pixelSrcUrl;
         }, 2000)
     </script>
