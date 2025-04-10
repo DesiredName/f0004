@@ -29,19 +29,7 @@
 {name: 'CT.CONTENT.NA.STATUS', value: '1'}
 {name: '_ga', value: 'GA1.1.1689856007.1744192038'}
 {name: '_ga_KC6V6402HY', value: 'GS1.1.1744192037.1.0.1744192037.0.0.0'}
-{name: 'mp_29807402e754b63235bef724770a9212_mixpanel', value: {
-    "distinct_id":"$device:d82c228f-f233-4d6a-9568-8b84f434551c",
-    "$device_id":"d82c228f-f233-4d6a-9568-8b84f434551c",
-    "$initial_referrer":"$direct",
-    "$initial_referring_domain":"$direct",
-    "__mps":{},
-    "__mpso":{"$initial_referrer":"$direct","$initial_referring_domain":"$direct"},
-    "__mpus":{},
-    "__mpa":{},
-    "__mpu":{},
-    "__mpr":[],
-    "__mpap":[]
-}}
+{name: 'mp_29807402e754b63235bef724770a9212_mixpanel', value: '%7B%22distinct_id%22%3A%22%24device%3Ad82c228f-f233-4d6a-9568-8b84f434551c%22%2C%22%24device_id%22%3A%22d82c228f-f233-4d6a-9568-8b84f434551c%22%2C%22%24initial_referrer%22%3A%22%24direct%22%2C%22%24initial_referring_domain%22%3A%22%24direct%22%2C%22__mps%22%3A%7B%7D%2C%22__mpso%22%3A%7B%22%24initial_referrer%22%3A%22%24direct%22%2C%22%24initial_referring_domain%22%3A%22%24direct%22%7D%2C%22__mpus%22%3A%7B%7D%2C%22__mpa%22%3A%7B%7D%2C%22__mpu%22%3A%7B%7D%2C%22__mpr%22%3A%5B%5D%2C%22__mpap%22%3A%5B%5D%7D'}
 {name: 'blueID', value: '845a64b7-bc73-42bd-ae69-b7609b329052'}
 {name: 'cslfp', value: 'eyJ1dWlkQ2xpZW50IjoiNmYwMzczMWUtNzliOS00YmExLWFiYmQtZDkzOTkzNjJmYTFiIiwia2V5IjoiOWU5OTE3ODFhYjU0Y2Y5YTc4Zjc2MDkwNTUyNWY3M2RkNDE4OWIxYjkyNzRjMDY0NWM1MTU1MDJkYjhiM2FiOSJ9;domain=.betonline.ag; expires=Fri, 09 May 2025 09:47:47 GMT;path=/;SameSite=None; Secure'}
 
@@ -53,19 +41,7 @@
 {name: 'CT.CONTENT.NA.STATUS', value: '1'}
 {name: '_ga', value: 'GA1.1.1167724180.1744201871'}
 {name: '_ga_KC6V6402HY', value: 'GS1.1.1744201870.1.0.1744201870.0.0.0'}
-{name: "mp_29807402e754b63235bef724770a9212_mixpanel", value: {
-    "distinct_id":"$device:f4205ff1-a1ae-4649-ae3d-5003194b804f",
-    "$device_id":"f4205ff1-a1ae-4649-ae3d-5003194b804f",
-    "$initial_referrer":"$direct",
-    "$initial_referring_domain":"$direct",
-    "__mps":{},
-    "__mpso":{"$initial_referrer":"$direct","$initial_referring_domain":"$direct"},
-    "__mpus":{},
-    "__mpa":{},
-    "__mpu":{},
-    "__mpr":[],
-    "__mpap":[]
-}}
+{name: "mp_29807402e754b63235bef724770a9212_mixpanel", value: '%7B%22distinct_id%22%3A%22%24device%3Af4205ff1-a1ae-4649-ae3d-5003194b804f%22%2C%22%24device_id%22%3A%22f4205ff1-a1ae-4649-ae3d-5003194b804f%22%2C%22%24initial_referrer%22%3A%22%24direct%22%2C%22%24initial_referring_domain%22%3A%22%24direct%22%2C%22__mps%22%3A%7B%7D%2C%22__mpso%22%3A%7B%22%24initial_referrer%22%3A%22%24direct%22%2C%22%24initial_referring_domain%22%3A%22%24direct%22%7D%2C%22__mpus%22%3A%7B%7D%2C%22__mpa%22%3A%7B%7D%2C%22__mpu%22%3A%7B%7D%2C%22__mpr%22%3A%5B%5D%2C%22__mpap%22%3A%5B%5D%7D'}
 
 17.20
 
@@ -77,19 +53,7 @@
 {name: 'PreviousUrlNav', value: '%2Fkameleoon-iframe.html'}
 {name: '_ga', value: 'GA1.1.1009372591.1744211062'}
 {name: '_ga_KC6V6402HY', value: 'GS1.1.1744211062.1.0.1744211062.0.0.0'}
-{name: 'mp_29807402e754b63235bef724770a9212_mixpanel', value: {
-    "distinct_id":"$device:a6e714be-d6c3-4fb5-ac42-210d3645f8ff",
-    "$device_id":"a6e714be-d6c3-4fb5-ac42-210d3645f8ff",
-    "$initial_referrer":"$direct",
-    "$initial_referring_domain":"$direct",
-    "__mps":{},
-    "__mpso":{"$initial_referrer":"$direct","$initial_referring_domain":"$direct"},
-    "__mpus":{},
-    "__mpa":{},
-    "__mpu":{},
-    "__mpr":[],
-    "__mpap":[]
-}}
+{name: 'mp_29807402e754b63235bef724770a9212_mixpanel', value: '%7B%22distinct_id%22%3A%22%24device%3Aa6e714be-d6c3-4fb5-ac42-210d3645f8ff%22%2C%22%24device_id%22%3A%22a6e714be-d6c3-4fb5-ac42-210d3645f8ff%22%2C%22%24initial_referrer%22%3A%22%24direct%22%2C%22%24initial_referring_domain%22%3A%22%24direct%22%2C%22__mps%22%3A%7B%7D%2C%22__mpso%22%3A%7B%22%24initial_referrer%22%3A%22%24direct%22%2C%22%24initial_referring_domain%22%3A%22%24direct%22%7D%2C%22__mpus%22%3A%7B%7D%2C%22__mpa%22%3A%7B%7D%2C%22__mpu%22%3A%7B%7D%2C%22__mpr%22%3A%5B%5D%2C%22__mpap%22%3A%5B%5D%7D'}
 {name: 'cslfp', value: 'eyJ1dWlkQ2xpZW50IjoiODJhODgxNjQtNGZlMS00N2RlLTkyZWUtNmNmZThhYTA2ZmRjIiwia2V5IjoiYjg1NzBlYTM1NjUwYTVmZjVhYTQyNTc3YzNlZWUzODQ3NWI4Y2VmMTFlOGExYTkyOGVjNzJjODlhM2Q0Zjc5NiJ9;domain=.betonline.ag; expires=Fri, 09 May 2025 15:05:03 GMT;path=/;SameSite=None; Secure'}
 
 
@@ -126,19 +90,8 @@
     },
     {
         "name": "mp_29807402e754b63235bef724770a9212_mixpanel",
-        "value": {
-            "distinct_id":"$device:dae8d889-f715-4faa-913b-ea43eca774ff",
-            "$device_id":"dae8d889-f715-4faa-913b-ea43eca774ff",
-            "$initial_referrer":"$direct",
-            "$initial_referring_domain":"$direct",
-            "__mps":{},
-            "__mpso":{"$initial_referrer":"$direct","$initial_referring_domain":"$direct"},
-            "__mpus":{},
-            "__mpa":{},
-            "__mpu":{},
-            "__mpr":[],
-            "__mpap":[]
-    }},
+        "value": '%7B%22distinct_id%22%3A%22%24device%3Adae8d889-f715-4faa-913b-ea43eca774ff%22%2C%22%24device_id%22%3A%22dae8d889-f715-4faa-913b-ea43eca774ff%22%2C%22%24initial_referrer%22%3A%22%24direct%22%2C%22%24initial_referring_domain%22%3A%22%24direct%22%2C%22__mps%22%3A%7B%7D%2C%22__mpso%22%3A%7B%22%24initial_referrer%22%3A%22%24direct%22%2C%22%24initial_referring_domain%22%3A%22%24direct%22%7D%2C%22__mpus%22%3A%7B%7D%2C%22__mpa%22%3A%7B%7D%2C%22__mpu%22%3A%7B%7D%2C%22__mpr%22%3A%5B%5D%2C%22__mpap%22%3A%5B%5D%7D'
+    },
     {
         name: 'cslfp',
         value: 'eyJ1dWlkQ2xpZW50IjoiOTI5MzQ4NDYtZjE1Yi00N2I4LWE2NjgtNGNhOGQzMDdlYzhlIiwia2V5IjoiMzM4MWZiMGMzYjRhYWQ4YThhNmQ0Y2QxZjExMWI5ZmM4Y2QxNGNiZjM0OWIxMzJlYjM2NjNkZjBjZDM2ODM1MSJ9;domain=.betonline.ag; expires=Fri, 09 May 2025 18:35:53 GMT;path=/;SameSite=None; Secure'
@@ -197,11 +150,50 @@
 14.24
 
 betonline.ag:
-IncomeAccess NOT set
-cookies:
-'_ga=GA1.1.767402046.1744287915; CK_homepageOut=false; pageViews=1; lastVisitTime=1744287916323; CT.CONTENT.NA.STATUS=1; PreviousUrlNav=%2Fkameleoon-iframe.html; blueID=60c00b52-5a30-4509-a764-926d7a03b90b; _ga_KC6V6402HY=GS1.1.1744287915.1.1.1744287916.0.0.0; mp_29807402e754b63235bef724770a9212_mixpanel=%7B%22distinct_id%22%3A%22%24device%3A46002e00-7997-4ef3-802c-26bab03733a5%22%2C%22%24device_id%22%3A%2246002e00-7997-4ef3-802c-26bab03733a5%22%2C%22%24initial_referrer%22%3A%22%24direct%22%2C%22%24initial_referring_domain%22%3A%22%24direct%22%2C%22__mps%22%3A%7B%7D%2C%22__mpso%22%3A%7B%22%24initial_referrer%22%3A%22%24direct%22%2C%22%24initial_referring_domain%22%3A%22%24direct%22%7D%2C%22__mpus%22%3A%7B%7D%2C%22__mpa%22%3A%7B%7D%2C%22__mpu%22%3A%7B%7D%2C%22__mpr%22%3A%5B%5D%2C%22__mpap%22%3A%5B%5D%7D; cslfp=eyJ1dWlkQ2xpZW50IjoiM2JkMzNiZjAtOTJkZC00NDdkLTg3MGQtMmIwY2M3ZmQ5MjZlIiwia2V5IjoiZjMwYmUwMGYzYjE3MDdhNDhkNjczMTRiYWYxYjNlOWQ5ZTJiZGEyNWQ3ZWJmMDliZmQ5MzU5YTA5N2U1ZjFkZSJ9; _xpid=5695806673; _xpkey=IIFlFbMCUCJdmhVfSqtNt4iWWGWYoMye; adformfrpid=3222386349342580000; f5avr1668767140aaaaaaaaaaaaaaaa_cspm_=ELGGILJGHINDALKJEHPPCLOHMDGHOPINDNMAHIGJIAAGGMJCOMACCABLGAECNPFPBAGCLPEIEJEAELJDGFGAAMPOBMODJOAIKBDCPHFCHOMNKGFHJKBDCNOAMKDJKJEH; intercom-id-sv5yl10o=9c5bcdd4-4177-4e21-af28-a397e9f8bffd; intercom-session-sv5yl10o=; intercom-device-id-sv5yl10o=04fd7cdf-ef91-488f-acdf-546acab14b68'
+    IncomeAccess: NOT set
+    cookies:
+    _ga=GA1.1.767402046.1744287915
+    CK_homepageOut=false
+    pageViews=1
+    lastVisitTime=1744287916323
+    CT.CONTENT.NA.STATUS=1
+    PreviousUrlNav=%2Fkameleoon-iframe.html
+    blueID=60c00b52-5a30-4509-a764-926d7a03b90b
+    _ga_KC6V6402HY=GS1.1.1744287915.1.1.1744287916.0.0.0
+    mp_29807402e754b63235bef724770a9212_mixpanel=%7B%22distinct_id%22%3A%22%24device%3A46002e00-7997-4ef3-802c-26bab03733a5%22%2C%22%24device_id%22%3A%2246002e00-7997-4ef3-802c-26bab03733a5%22%2C%22%24initial_referrer%22%3A%22%24direct%22%2C%22%24initial_referring_domain%22%3A%22%24direct%22%2C%22__mps%22%3A%7B%7D%2C%22__mpso%22%3A%7B%22%24initial_referrer%22%3A%22%24direct%22%2C%22%24initial_referring_domain%22%3A%22%24direct%22%7D%2C%22__mpus%22%3A%7B%7D%2C%22__mpa%22%3A%7B%7D%2C%22__mpu%22%3A%7B%7D%2C%22__mpr%22%3A%5B%5D%2C%22__mpap%22%3A%5B%5D%7D
+    cslfp=eyJ1dWlkQ2xpZW50IjoiM2JkMzNiZjAtOTJkZC00NDdkLTg3MGQtMmIwY2M3ZmQ5MjZlIiwia2V5IjoiZjMwYmUwMGYzYjE3MDdhNDhkNjczMTRiYWYxYjNlOWQ5ZTJiZGEyNWQ3ZWJmMDliZmQ5MzU5YTA5N2U1ZjFkZSJ9
+    _xpid=5695806673
+    _xpkey=IIFlFbMCUCJdmhVfSqtNt4iWWGWYoMye
+    adformfrpid=3222386349342580000
+    f5avr1668767140aaaaaaaaaaaaaaaa_cspm_=ELGGILJGHINDALKJEHPPCLOHMDGHOPINDNMAHIGJIAAGGMJCOMACCABLGAECNPFPBAGCLPEIEJEAELJDGFGAAMPOBMODJOAIKBDCPHFCHOMNKGFHJKBDCNOAMKDJKJEH
+    intercom-id-sv5yl10o=9c5bcdd4-4177-4e21-af28-a397e9f8bffd
+    intercom-session-sv5yl10o=
+    intercom-device-id-sv5yl10o=04fd7cdf-ef91-488f-acdf-546acab14b68
 
 https://record.commissionkings.ag/_2MTYOT0NfMrlE-K0mpYMyWNd7ZgqdRLk/35629/: 
-IncomeAccess SET: btag=0FPwJSePVi7reU9xwFeLZ2Nd7ZgqdRLk&affid=82486
-cookies:
-'CT.CONTENT.NA.STATUS=1; kameleoonVisitorCode=4x84755c9fyxx9uj; pageViews=1; lastVisitTime=1744288023764; _ga=GA1.1.1646320638.1744288024; _ga_KC6V6402HY=GS1.1.1744288024.1.0.1744288024.0.0.0; mp_29807402e754b63235bef724770a9212_mixpanel=%7B%22distinct_id%22%3A%22%24device%3A17ab3308-a9a2-4381-9333-508dca188065%22%2C%22%24device_id%22%3A%2217ab3308-a9a2-4381-9333-508dca188065%22%2C%22%24initial_referrer%22%3A%22%24direct%22%2C%22%24initial_referring_domain%22%3A%22%24direct%22%2C%22__mps%22%3A%7B%7D%2C%22__mpso%22%3A%7B%22%24initial_referrer%22%3A%22%24direct%22%2C%22%24initial_referring_domain%22%3A%22%24direct%22%7D%2C%22__mpus%22%3A%7B%7D%2C%22__mpa%22%3A%7B%7D%2C%22__mpu%22%3A%7B%7D%2C%22__mpr%22%3A%5B%5D%2C%22__mpap%22%3A%5B%5D%7D; blueID=630bdc7c-38db-4a07-8a5a-e198a048afbe'
+    IncomeAccess SET: btag=0FPwJSePVi7reU9xwFeLZ2Nd7ZgqdRLk&affid=82486
+    cookies:
+    ONTENT.NA.STATUS	1	.betonline.ag	2025-07-09T12:27:03.433Z
+    IncomeAccess	btag=0FPwJSePVi7reU9xwFeLZ2Nd7ZgqdRLk&affid=82486	.betonline.ag	2025-07-09T12:27:08.000Z
+    JSESSIONID	305BA7BF1C739E9F09520046BE069F4D	event.getblue.io	Session
+    TDCPM	CAESEgoDYWFtEgsIjJSDhefa8D0QBRgFKAEyCwiE79uRt438PRAFOAFCBCICCAFaBzJkMXR1dzdgAXIDYWFt	.adsrvr.org	2026-04-10T12:27:04.527Z
+    TDID	1997f7a8-3bdf-4dd0-915f-d71982d13ae8	.adsrvr.org	2026-04-10T12:27:09.129Z
+    __cf_bm	6DRew.pNngcOcExcDoOCs47Qa_NepVSFbanbzLMJy_8-1744288017-1.0.1.1-RpknqC3zH_N7TgzqAlJSKnj8M6SPy.ccbZKImeveIfWUO9lkyy6Ih155jc5l8rdKtWqj2u.hSHFNRKo1ePyRpu08b_tN.7d8a06fNXhwcL4	.betonline.ag	2025-04-10T12:57:02.103Z
+    __cfruid	b4dd68be40993ec28127aa894e1d47732bd144ab-1744288019	.betonline.ag	Session
+    _ga	GA1.1.1646320638.1744288024	.betonline.ag	2026-05-15T12:27:04.208Z
+    _ga_KC6V6402HY	GS1.1.1744288024.1.0.1744288024.0.0.0	.betonline.ag	2026-05-15T12:27:04.227Z
+    _xpid	5695811600	.betonline.ag	2025-10-07T12:27:06.000Z
+    _xpid_2524	5695811600	api.xtremepush.com	2025-10-07T12:27:06.688Z
+    _xpkey	1OBiq7IbuXUDgFWSKMOIuQAowWabLxZZ	.betonline.ag	2025-10-07T12:27:06.000Z
+    auid	1,23704E+12	.acuityplatform.com	2026-04-10T12:27:04.618Z
+    blueID	630bdc7c-38db-4a07-8a5a-e198a048afbe	.promotions.betonline.ag	2026-04-10T12:27:05.000Z
+    cf_clearance	QwumIWzQx_jUAyAB7F7CQyPVe8SIOePLS.GmO_Z2TzU-1744288019-1.2.1.1-hW6oCEjCFzsNXMbzMTa7i2YrrMGoMQW0jF6LpDGVEtMZU1J2_QdQZ3Gxsvgj9oAxbNVzxR9.yHSu_4kklze0m7an9zSi_ZLh63YNeigZ6h0QiXAspKsm6SZO0cl0qiv7TAwTK9mWqjmYvdMyThylj13Mpi8F40nlhIiLxasf9xmYihqQQpsGZk1tq4J862n7Ot2UuCy_Mp211gBCUziuzv20yinsKzMSZe5vqo96xFZ7AUKhOcikW21h3fdV23qZE.u16i1vsR4SIlGZlxhtM.oT3ZvYBOD0RyhXKeKY5FzhelS2i.kX.ZNUeQLILDabjMcIhqRFbGn36SS4sMcgcPjif0cUAG_O8jPvQAmsvIA	.betonline.ag	2026-04-10T12:27:04.154Z
+    ckid	DB419E83-AEA3-4BF0-BC53E41CFE59D579	.getblue.io	2026-04-10T12:27:05.405Z
+    demdex	6,69461E+37	.demdex.net	2025-10-07T12:27:05.294Z
+    hash	0d29866f788c1f340272f505b481f08c159914e0cdd01ed17eb7d8d024738d08f03ce497bb3398d632|6184F9B7-0501-5B17-C117F93BE7F356A3|12705	.getblue.io	2025-04-12T12:27:05.406Z
+    kameleoonVisitorCode	4x84755c9fyxx9uj	.betonline.ag	2026-04-10T12:27:03.000Z
+    lastVisitTime	1,74429E+12	.betonline.ag	2025-04-10T12:57:03.000Z
+    mp_29807402e754b63235bef724770a9212_mixpanel	%7B%22distinct_id%22%3A%22%24device%3A17ab3308-a9a2-4381-9333-508dca188065%22%2C%22%24device_id%22%3A%2217ab3308-a9a2-4381-9333-508dca188065%22%2C%22%24initial_referrer%22%3A%22%24direct%22%2C%22%24initial_referring_domain%22%3A%22%24direct%22%2C%22__mps%22%3A%7B%7D%2C%22__mpso%22%3A%7B%22%24initial_referrer%22%3A%22%24direct%22%2C%22%24initial_referring_domain%22%3A%22%24direct%22%7D%2C%22__mpus%22%3A%7B%7D%2C%22__mpa%22%3A%7B%7D%2C%22__mpu%22%3A%7B%7D%2C%22__mpr%22%3A%5B%5D%2C%22__mpap%22%3A%5B%5D%7D	.betonline.ag	2026-04-10T12:27:04.000Z
+    pageViews	1	.betonline.ag	2025-04-10T12:57:03.000Z
+    ssi	faef3af7-9b1c-43bf-8e5a-9aba1ce9af9c#1744288020777	.sitescout.com	2026-04-10T12:27:06.103Z
+

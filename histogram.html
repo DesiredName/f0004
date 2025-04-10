@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Histogram Viewer</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+
+        .highlight {
+            background-color: yellow;
+        }
+
+        .rangeContainer {
+            position: sticky;
+            border-radius: 8px;
+            top: 0;
+            gap: 20px !important;
+            background-color: #ccc;
+            padding: 8px;
+        }
+
+        .rangeContainer,
+        .rangeContainer > div {
+            display: flex;
+            gap: 10px;
+            justify-content: flex-start;
+            align-items: center;
+        }
+
+        .snapshot {
+            margin-top: 10px;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+
+        .snapshot h3 {
+            margin: 0;
+        }
+
+        .cookie-table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 10px;
+        }
+
+        .cookie-table th,
+        .cookie-table td {
+            border: 1px solid #ccc;
+            padding: 5px;
+            text-align: left;
+            max-width: 300px;
+            text-wrap-mode: wrap;
+            line-break: anywhere;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Histogram Viewer</h1>
+    <div class="rangeContainer">
+        <div>
+            <label for="range">Select Snapshot:</label>
+            <input type="range" id="range" min="0" max="0" value="0">
+            <span id="rangeValue">0</span>
+        </div>
+
+        <div id="sourceContainer">
+            <label>Select source:</label>
+            <label for="0">betonline.ag</label>
+            <input type="radio" name="source" id="0" value="0">
+            <label for="1">https://promotions.betonline.ag</label>
+            <input type="radio" name="source" id="1" value="1">
+            <label for="2">both</label>
+            <input type="radio" name="source" id="2" value="2" checked>
+        </div>
+    </div>
+    <div id="snapshotContainer"></div>
+
+    <script>
+        (async () => {
+            const histogram = await fetch('histogram.json').then((r) => r.json());
+
+            const rangeInput = document.getElementById('range');
+            const rangeValue = document.getElementById('rangeValue');
+            const sourceContainer = document.getElementById('sourceContainer');
+            const rangeSource = () =>  Array.from(document.getElementsByName('source')).find((e) => e.checked === true).value;
+            const snapshotContainer = document.getElementById('snapshotContainer');
+
+            rangeInput.max = histogram.length - 1;
+
+            function renderSnapshot(index) {
+                snapshotContainer.innerHTML = '';
+                const currentSnapshot = histogram[index];
+                const previousSnapshot = index > 0 ? histogram[index - 1] : null;
+
+                const dateElement = document.createElement('h2');
+                dateElement.textContent = `Snapshot Date: ${currentSnapshot.date}`;
+                snapshotContainer.appendChild(dateElement);
+                rangeValue.textContent = currentSnapshot.date;
+
+                let currentIdx = -1;
+                const sourceIdx = rangeSource(); // 0 - betonline, 1 - promote, 2 - both
+
+                for (const [url, snapshot] of Object.entries(currentSnapshot.histogram)) {
+                    currentIdx++;
+               
+                    if (sourceIdx != 2 && (currentIdx != sourceIdx)) {
+                        continue;
+                    }
+                    
+                    const snapshotDiv = document.createElement('div');
+                    snapshotDiv.className = 'snapshot';
+
+                    const urlElement = document.createElement('h3');
+                    urlElement.textContent = `URL: ${url}`;
+                    snapshotDiv.appendChild(urlElement);
+
+                    const incomeAccessElement = document.createElement('p');
+                    incomeAccessElement.textContent = `IncomeAccess: ${snapshot.IncomeAccess}`;
+                    if (previousSnapshot && previousSnapshot.histogram[url]?.IncomeAccess !== snapshot.IncomeAccess) {
+                        incomeAccessElement.classList.add('highlight');
+                    }
+                    snapshotDiv.appendChild(incomeAccessElement);
+
+                    const cookieTable = document.createElement('table');
+                    cookieTable.className = 'cookie-table';
+
+                    const headerRow = document.createElement('tr');
+                    ['Name', 'Value', 'Domain', 'Expires'].forEach(header => {
+                        const th = document.createElement('th');
+                        th.textContent = header;
+                        headerRow.appendChild(th);
+                    });
+                    cookieTable.appendChild(headerRow);
+
+                    snapshot.cookies.toSorted((a, b) => a[0] > b[0]).forEach(cookie => {
+                        const row = document.createElement('tr');
+                        cookie.forEach((value, i) => {
+                            const cell = document.createElement('td');
+                            cell.textContent = value || 'undefined';
+                            if (previousSnapshot) {
+                                const prevCookies = previousSnapshot.histogram[url]?.cookies || [];
+                                const prevCookie = prevCookies.find(c => c[0] === cookie[0]);
+                                if (prevCookie && prevCookie[i] !== value) {
+                                    cell.classList.add('highlight');
+                                }
+                            }
+                            row.appendChild(cell);
+                        });
+                        cookieTable.appendChild(row);
+                    });
+
+                    snapshotDiv.appendChild(cookieTable);
+                    snapshotContainer.appendChild(snapshotDiv);
+                }
+            }
+
+            rangeInput.addEventListener('input', () => {
+                const index = parseInt(rangeInput.value, 10);
+                renderSnapshot(index);
+            });
+
+            sourceContainer.addEventListener('click', () => {
+                const index = parseInt(rangeInput.value, 10);
+                renderSnapshot(index);
+            })
+
+            // Initial render
+            renderSnapshot(0);
+        })();
+    </script>
+</body>
+
+</html>
