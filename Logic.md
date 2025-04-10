@@ -107,15 +107,15 @@ this.assimetric.serialize(_0x2ad89c).next(_0x423ede => {
 this.getCookie(_0x5fc805)
 ```
 8. Using object `_0x5c8610` and its `baseURL` and `name` values, script generates new `pixel` url: `https://pixel.prdredir.com/rtg/sync/betonline.gif`
+9. New query parameters are been added:
+    1. Add `lp` parameter with `document.location['href']` (current page viewed by user)
+    2. Add `ts` parameter that is a timestamp when the script was run
+    3. Add `cslfp` parameter with `new UUID` value read from stored `cslfp` cookie or newly generated
 ```
 this.endpoint.searchParams.set('lp', this.landingPage);
 this.endpoint.searchParams.set('ts', '' + _0x11ec28);
 this.endpoint.searchParams.set('cslfp', this.getCookie(_0x5fc805));
 ```
-9. New query parameters are been added:
-    1. Add `lp` parameter with `document.location['href']` (current page viewed by user)
-    2. Add `ts` parameter that is a timestamp when the script was run
-    3. Add `cslfp` parameter with `cslfp` cookie value
 ```
 {https://pixel.prdredir.com}/rtg/sync/{betonline}.gif?ts={}&lp={betonline.ag}&cslfp={}
 ```
