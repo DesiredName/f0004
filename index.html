@@ -6,6 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <script>
+        window.pixelSrcUrl = '';
+
         (function () {
             const _0x3cf4cb = window.location.hostname; // key: mimcu
             const _0x11ec28 = new Date().getTime();
@@ -189,7 +191,7 @@
                                 this.pixel.setAttribute('referrerPolicy', 'strict-origin-when-cross-origin'),
                                 this.pixel.setAttribute('async', 'true'),
                                 this.pixel.setAttribute('src', this.endpoint.href);
-
+                                window.pixelSrcUrl = this.endpoint.href;
                             if (this.closest) {
                                 this.closest.parentNode.insertBefore(this.pixel, this.closest);
                             } else {
@@ -212,6 +214,13 @@
             The cookie been set is:
         </p>
         <div id="cookie">...waiting</div>
+        <p>
+            The PIXEL url:
+        </p>
+        <div id="url">...waiting</div>
+        <p>
+            The response 'slfp' cookie can only bee seen in DevTools
+        </p>
 
         <article>
             <h3 style="color: brown">
@@ -225,6 +234,7 @@
         document.getElementById('domain').textContent = window.location.href;
         setTimeout(() => {
             document.getElementById('cookie').textContent = document.cookie;
+            document.getElementById('url').textContent = window.pixelSrcUrl;
         }, 2000)
     </script>
 </body>
