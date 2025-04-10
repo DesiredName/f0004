@@ -57,7 +57,7 @@
         /** Retrieves and stores reference first `script` node in thd document */
         this.closest = document.getElementsByTagName('script')[0];
         this.assimetric = new _0x5f3c7d();
-        this.landingPage = document.location['href'];
+        this.landingPage = document.location.href;
 
         const _0x162392 = {};
         _0x162392['domain'] = _0x3cf4cb,
@@ -73,7 +73,7 @@
                 new TextEncoder('utf-8').encode(_0x3a1367 + '-' + _0x105507 + '-' + _0x531eec)
             ).then(_0x2fc96f => {
                 let _0xea564f = [], _0x48193e = new DataView(_0x2fc96f);
-                
+
                 for ( let i = 0; i < _0x48193e.byteLength; i += 4 )
                     _0xea564f.push(('00000000' + _0x48193e.getUint32(i).toString(16)).slice(-8));
 
@@ -208,7 +208,7 @@
     // ORIGIN: _0x4a1750[_0x1c4300(0x547, 0x2ed, 0x4d5, 0x3fd, 0x542) + _0x50c157(0x55e, 0x4a7, 0x66a, 0x651, 0x68e)][_0x5abd78(0x2a9, 0x26b, 0x307, 0x404, 0x43a)]
     _0x4a1750.prototype.start = function() {        
         /** Unique UUID of this browser, that is set when 'cslfp' cookie is been set for the first time */
-        const _0x42352f = this.uuid.generate()
+        const _0x42352f = this.uuid.generate();
         const _0x2ad89c = {};
 
         _0x2ad89c['uuidClient'] = _0x3ee921,
