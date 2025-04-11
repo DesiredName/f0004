@@ -16,7 +16,11 @@
         }
 
         .rangeContainer {
+            display: flex;
             position: sticky;
+            justify-content: flex-start;
+            align-items: flex-start;
+            flex-flow: column;
             border-radius: 8px;
             top: 0;
             gap: 20px !important;
@@ -24,12 +28,21 @@
             padding: 8px;
         }
 
-        .rangeContainer,
         .rangeContainer > div {
             display: flex;
             gap: 10px;
             justify-content: flex-start;
             align-items: center;
+        }
+
+        .rangeContainer input[type="radio"] {
+            display: none;
+        }
+
+        .rangeContainer label:has(+ :checked) {
+            border-radius: 8px;
+            padding:  2px 4px;
+            background-color: #777 !important;
         }
 
         .snapshot {
@@ -54,9 +67,26 @@
             border: 1px solid #ccc;
             padding: 5px;
             text-align: left;
-            max-width: 300px;
             text-wrap-mode: wrap;
+            min-height: 65px;
+            height: 65px;
             line-break: anywhere;
+        }
+        .cookie-table th:nth-child(1),
+        .cookie-table td:nth-child(1) {
+            width: 260px;
+        }
+        .cookie-table th:nth-child(2),
+        .cookie-table td:nth-child(2) {
+            width: auto;
+        }
+        .cookie-table th:nth-child(3),
+        .cookie-table td:nth-child(3) {
+            width: 120px;
+        }
+        .cookie-table th:nth-child(4),
+        .cookie-table td:nth-child(4) {
+            width: 120px;
         }
     </style>
 </head>
@@ -85,6 +115,7 @@
     <script>
         (async () => {
             const histogram = await fetch('histogram.json').then((r) => r.json());
+            const dict = new Map();
 
             const rangeInput = document.getElementById('range');
             const rangeValue = document.getElementById('rangeValue');
@@ -93,6 +124,23 @@
             const snapshotContainer = document.getElementById('snapshotContainer');
 
             rangeInput.max = histogram.length - 1;
+
+            function prepareDict() {
+                histogram.forEach(entry => {
+                    for (const key in entry.histogram) {
+                        let target = dict.get(key);
+
+                        if (target == null) {
+                            target = new Set();
+                            dict.set(key, target);
+                        }
+
+                        for (const cookie of entry.histogram[key].cookies) {
+                            target.add(cookie[0])
+                        }
+                    }
+                });
+            }
 
             function renderSnapshot(index) {
                 snapshotContainer.innerHTML = '';
@@ -139,20 +187,28 @@
                     });
                     cookieTable.appendChild(headerRow);
 
-                    snapshot.cookies.toSorted((a, b) => a[0] > b[0]).forEach(cookie => {
+                    const cookieNames = dict.get(url);
+                    
+                    Array.from(cookieNames).toSorted().forEach((cookieName) => {
                         const row = document.createElement('tr');
-                        cookie.forEach((value, i) => {
+
+                        const currentCookie = snapshot.cookies.find((c) => c[0] == cookieName) ?? [cookieName];
+                        const previousCookie = previousSnapshot ? previousSnapshot.histogram[url]?.cookies.find((c) => c[0] == cookieName) ?? [cookieName] : [cookieName];
+
+                        for (let idx = 0; idx < currentCookie.length; idx++) {
+                            const current = currentCookie[idx];
+                            const previous = previousCookie[idx];
+                            const isChanged = current != previous;
+                            
                             const cell = document.createElement('td');
-                            cell.textContent = value || 'undefined';
-                            if (previousSnapshot) {
-                                const prevCookies = previousSnapshot.histogram[url]?.cookies || [];
-                                const prevCookie = prevCookies.find(c => c[0] === cookie[0]);
-                                if (prevCookie && prevCookie[i] !== value) {
-                                    cell.classList.add('highlight');
-                                }
+                            cell.textContent = current;
+                            if (isChanged) {
+                                cell.classList.add('highlight');
                             }
+
                             row.appendChild(cell);
-                        });
+                        }
+                        
                         cookieTable.appendChild(row);
                     });
 
@@ -171,6 +227,7 @@
                 renderSnapshot(index);
             })
 
+            prepareDict();
             // Initial render
             renderSnapshot(0);
         })();
