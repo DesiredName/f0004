@@ -957,4 +957,70 @@
             ]
         }
     }
+}, {
+    "date": "12.04.2025 16:24",
+    "histogram": {
+        "betonline.ag": {
+            "IncomeAccess": null,
+            "cookies": [
+                ["__cf_bm", "QD6iw9y6XrSxXYKPrh9Kh9tUC82hOMawqkodO_MulWs-1744478009-1.0.1.1-09y8czgYEYz1Dz.nB3tJ4iGNCLtH_i_80z_JDcMKHxmdrOQSQHlYQsB1Lh1PcRsF4XKhtFBMhPWq0YL7gvWEF4kfuyRlWAeeFcwXTNYA8aE", ".betonline.ag", "2025-04-12T17:43:30.021Z"],
+                ["__cfruid", "551219d50fa040f4e67abdc9c4bee7186bec4cf0-1744478009", ".betonline.ag", "Session"],
+                ["_ga", "GA1.1.942725135.1744478011", ".betonline.ag", "2026-05-17T17:13:31.386Z"],
+                ["_ga_KC6V6402HY", "GS1.1.1744478011.1.0.1744478011.0.0.0", ".betonline.ag", "2026-05-17T17:13:31.399Z"],
+                ["_xpid", "5705526550", ".betonline.ag", "2025-10-09T17:13:34.000Z"],
+                ["_xpid_2524", "5705526550", "api.xtremepush.com", "2025-10-09T17:13:34.215Z"],
+                ["_xpkey", "myy-N7B2xafU5pqKdWh6WiN9ZQspAD6i", ".betonline.ag", "2025-10-09T17:13:34.000Z"],
+                ["adformfrpid", "4,2354E+18", "www.betonline.ag", "2025-05-12T17:13:33.000Z"],
+                ["auid", "1,23805E+12", ".acuityplatform.com", "2026-04-12T17:13:33.094Z"],
+                ["blueID", "ec1bc33b-87a4-4ac6-9641-95bb14d386b0", ".betonline.ag", "2026-04-12T17:13:32.000Z"],
+                ["C", "1", ".adform.net", "2025-05-12T17:13:33.145Z"],
+                ["cf_clearance", "QwaD_wKt6.iFsKGVJqH5oA9z1HYHqjpzkN36PsSw58E-1744478011-1.2.1.1-ADnzP.dGxxwdBW0dpdJANEncH8VEbSOjChDb_AREohPjHdhoV7LUL86DrtSAv_AHa7HJ7sSOHQHcjXwHMLyXBZJkOeV_4v9frLPC8AlWwOSmUBYofb0NKHYDXWDHbyr0DNeHofvkJpmMymsTEHQHuQzStSq3u8QxiW0xSB3hTfwOqRxEXm0ElRpEmThAJdr4ji5a2Ji5DHNF5z0lRyI2QqhScwhexd8q4IJv0XDiLin0vgD56HqvG0CZujMUIPdV38xJJAJxRA5jVsHGXE7eIuhSHZZe_N8XJbFKxbgME4zMSHn.eyIEczI87aPCY0crE2IA762ZNMgaV5xyG9ea2ZBOUp.1chwO8EyawsGZxoM", ".betonline.ag", "2026-04-12T17:13:31.970Z"],
+                ["CK_homepageOut", "FALSE", ".betonline.ag", "2025-04-13T17:13:30.000Z"],
+                ["ckid", "1B19EA56-6A32-45C3-91E08FCDDF4EF7D9", ".getblue.io", "2026-04-12T17:13:33.328Z"],
+                ["cslfp", "eyJ1dWlkQ2xpZW50IjoiMDIzYjIxZmMtNWMyZC00OTc5LThhMTItYzBiMTBmNmNjYWUxIiwia2V5IjoiMmQ0YTQ3NjYxYmJlMWRmZmNlMWU4NDkzYjhlOTZlOGI1OTQ0YjA5NjkzMDM2NWRjNjAwZTBhY2ZjOTcyY2M2NCJ9", ".betonline.ag", "2025-05-12T17:13:32.000Z"],
+                ["CT.CONTENT.NA.STATUS", "1", ".betonline.ag", "2025-07-11T17:13:30.975Z"],
+                ["demdex", "3,92747E+37", ".demdex.net", "2025-10-09T17:13:32.556Z"],
+                ["intercom-device-id-sv5yl10o", "574dd40c-ee6f-46d4-a881-aa42b2c66485", ".betonline.ag", "2026-01-07T17:46:58.000Z"],
+                ["intercom-id-sv5yl10o", "a77518d9-f604-4bd0-a63f-7446804e559e", ".betonline.ag", "2026-01-07T17:46:58.000Z"],
+                ["intercom-session-sv5yl10o", "", ".betonline.ag", "2025-04-19T17:13:38.000Z"],
+                ["JSESSIONID", "B5F1198F9F7E343FD3C2C3BD236885D1", "event.getblue.io", "Session"],
+                ["lastVisitTime", "1,74448E+12", ".betonline.ag", "2025-04-12T17:43:30.000Z"],
+                ["mp_29807402e754b63235bef724770a9212_mixpanel", "%7B%22distinct_id%22%3A%22%24device%3Ad301be86-16ba-4837-aadc-9dd742db6a65%22%2C%22%24device_id%22%3A%22d301be86-16ba-4837-aadc-9dd742db6a65%22%2C%22%24initial_referrer%22%3A%22%24direct%22%2C%22%24initial_referring_domain%22%3A%22%24direct%22%2C%22__mps%22%3A%7B%7D%2C%22__mpso%22%3A%7B%22%24initial_referrer%22%3A%22%24direct%22%2C%22%24initial_referring_domain%22%3A%22%24direct%22%7D%2C%22__mpus%22%3A%7B%7D%2C%22__mpa%22%3A%7B%7D%2C%22__mpu%22%3A%7B%7D%2C%22__mpr%22%3A%5B%5D%2C%22__mpap%22%3A%5B%5D%7D", ".betonline.ag", "2026-04-12T17:13:31.000Z"],
+                ["pageViews", "1", ".betonline.ag", "2025-04-12T17:43:30.000Z"],
+                ["slfp", "eyJ1dWlkIjoiNmNjNjIyMDktOWE2ZC00NWExLTlmOGQtNmM0ODVmMzA0Y2U3%0AIiwibmFtZSI6ImJldG9ubGluZSIsInRzIjoiMjAyNS0wNC0xMiAxNDoxMzoz%0AMiAtMDMwMCJ9%0A", ".prdredir.com", "2025-05-12T17:13:32.985Z"],
+                ["ssi", "ba07ccd4-8551-466f-9f02-3e03e9bdbbfc#1744478012368", ".sitescout.com", "2026-04-12T17:13:32.673Z"],
+                ["TDCPM", "CAESEgoDYWFtEgsI-Mv2vrLJ8T0QBRgFKAEyCwjUpM_Lgvz8PRAFOAFCBCICCAFaBzJkMXR1dzdgAXIDYWFt", ".adsrvr.org", "2026-04-12T17:13:31.774Z"],
+                ["TDID", "d2d08d38-6305-4049-bb50-a878bc2f50c9", ".adsrvr.org", "2026-04-12T17:13:35.882Z"],
+                ["userid_prod", "ef84e98e450f23328065c87099f10556", ".extremereach.io", "2025-10-09T17:13:32.137Z"],
+                ["userid_prod2", "ef84e98e450f23328065c87099f10556", ".extremereach.io", "2025-10-09T17:13:32.137Z"]
+            ]
+        }, 
+        "https://promotions.betonline.ag": {
+            "IncomeAccess": "btag=Z9lDv4Z07fcYkRMHahvPdmNd7ZgqdRLk&affid=82486",
+            "cookies":[
+                ["__cf_bm", "3b3XDqnO`Ju.XhWk7L1Y6S1hXcY5p5jZByoZLjSm8prc-1744478139-1.0.1.1-8PdNzzetTSNTOj6Mlqsax.Yemieca98vI_kFQhh2fVE2iTxhU5DbYSYZXegEfmU3dW7rRSXnJOqDjv5Gb0j._aEWRtZPnw6vnJujuJG6ivs", ".betonline.ag", "2025-04-12T17:45:39.729Z"],
+                ["__cfruid", "4bae2965d34ffc7d78499a5c6939fbb3506a5650-1744478141", ".betonline.ag", "Session"],
+                ["_ga", "GA1.1.884639645.1744478141", ".betonline.ag", "2026-05-17T17:15:41.330Z"],
+                ["_ga_KC6V6402HY", "GS1.1.1744478141.1.0.1744478141.0.0.0", ".betonline.ag", "2026-05-17T17:15:41.339Z"],
+                ["_xpid", "5705533664", ".betonline.ag", "2025-10-09T17:15:44.000Z"],
+                ["_xpid_2524", "5705533664", "api.xtremepush.com", "2025-10-09T17:15:44.267Z"],
+                ["_xpkey", "d3xAkiMvJ2KDxF5lELkuJNPOncFW2Kj6", ".betonline.ag", "2025-10-09T17:15:44.000Z"],
+                ["auid", "1,23805E+12", ".acuityplatform.com", "2026-04-12T17:15:43.125Z"],
+                ["blueID", "c3d4f0f6-e733-4835-b161-7c1011e17fd1", ".promotions.betonline.ag", "2026-04-12T17:15:42.000Z"],
+                ["cf_clearance", "1oO4GDHVvCzoa9LseODRfIbYG11dg9n_46e_G7L.AQ0-1744478141-1.2.1.1-xH2Onbls9Fdwq8QIOpv_cYgp317GOQQ_H0cpUzz2t3M.7dPs88emCep96CCVsDyLBtYYdcDa3SLVsfxGKnmLZs2WnbDKgH8S8m6BfBv1GH0pPhfiZSOESGGfSzVDVKNkTAm25zmP28kFNPZJgsRSeXqNKUR3dp8vQU7SNDe0b77PIUVivlrSxlLL2OXzvj8ijAVr29m0Gb6e_d5kXdvMNbBvMJ0XtLfrEvStoKGr0QqqN4bKlRThijqL9hTiFCg.calucl30HLQiPCAT4R5cWNkBcbYSemVV.W9SgDvl5l6z1njId2XBSeDviJu5dyld9edTLCMOTnJKf7PdTLzO2JK_Jxq0g2WkpvJdnAuZ_sY", ".betonline.ag", "2026-04-12T17:15:42.223Z"],
+                ["ckid", "D1EF46EB-569B-4B12-8EBD50866DF4EC27", ".getblue.io", "2026-04-12T17:15:43.208Z"],
+                ["CT.CONTENT.NA.STATUS", "1", ".betonline.ag", "2025-07-11T17:15:41.439Z"],
+                ["demdex", "6,06926E+37", ".demdex.net", "2025-10-09T17:15:42.479Z"],
+                ["IncomeAccess", "btag=Z9lDv4Z07fcYkRMHahvPdmNd7ZgqdRLk&affid=82486", ".betonline.ag", "2025-07-11T17:15:45.000Z"],
+                ["JSESSIONID", "807A9F6AC101B6178F6FF27B830B41BB", "event.getblue.io", "Session"],
+                ["kameleoonVisitorCode", "g7cm8lkj5f93hwix", ".betonline.ag", "2026-04-12T17:15:41.000Z"],
+                ["lastVisitTime", "1,74448E+12", ".betonline.ag", "2025-04-12T17:45:40.000Z"],
+                ["mp_29807402e754b63235bef724770a9212_mixpanel", "%7B%22distinct_id%22%3A%22%24device%3Afc157cc2-2bbd-4587-b471-ecebe046541f%22%2C%22%24device_id%22%3A%22fc157cc2-2bbd-4587-b471-ecebe046541f%22%2C%22%24initial_referrer%22%3A%22%24direct%22%2C%22%24initial_referring_domain%22%3A%22%24direct%22%2C%22__mps%22%3A%7B%7D%2C%22__mpso%22%3A%7B%22%24initial_referrer%22%3A%22%24direct%22%2C%22%24initial_referring_domain%22%3A%22%24direct%22%7D%2C%22__mpus%22%3A%7B%7D%2C%22__mpa%22%3A%7B%7D%2C%22__mpu%22%3A%7B%7D%2C%22__mpr%22%3A%5B%5D%2C%22__mpap%22%3A%5B%5D%7D", ".betonline.ag", "2026-04-12T17:15:41.000Z"],
+                ["pageViews", "1", ".betonline.ag", "2025-04-12T17:45:40.000Z"],
+                ["ssi", "74fa9c88-e2e4-4a78-bc77-316e92f060b2#1744478142017", ".sitescout.com", "2026-04-12T17:15:43.323Z"],
+                ["TDCPM", "CAESEgoDYWFtEgsIwtn5lbzJ8T0QBRgFKAEyCwiWsdKijPz8PRAFOAFCBCICCAFaBzJkMXR1dzdgAXIDYWFt", ".adsrvr.org", "2026-04-12T17:15:41.694Z"],
+                ["TDID", "ea94b332-98c`9-4811-bf47-4fb29f456c5c", ".adsrvr.org", "2026-04-12T17:15:45.697Z"]
+            ]
+        }
+    }
 }]
